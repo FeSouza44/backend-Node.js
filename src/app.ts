@@ -13,8 +13,8 @@ app.get("/parametro/:nome", (req:Request, res:Response, next:NextFunction)=> {
 
     res.send(`voce digitou o nome: ${nome}`)
 
-})
 
+})
 app.get("/corpo", (req: Request, res:Response, next:NextFunction)=> {
     const nome = req.body.nome;
     console.log(`variabel dentro do corpo- cliente digitou ${nome}`)
